@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!--Configurações do site-->
+    <title>Spa Car Ituan</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Minha documentação" />
+    <meta name="author" content="Eudes Pessoa" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./img/spacarlogosemfundo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <script defer src="https://use.fontawesome.com/releases/v6.5.2/js/all.js"></script>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="header">
+        <!--Logo-->
+        <div class="logo">
+            <i class="fa-solid fa-car-side"></i>
+            <a href="">
+                Spa Car
+                <span> Ituan </span>
+            </a>
+        </div>
+
+        <!--Menu-->
+        <nav class="navigation" id="nav">
+            <ul id="nav-items">
+                <li>
+                    <a class="nav-item" href="/">HOME</a>
+                </li>
+
+                <li>
+                    <a class="nav-item" href="#descriptions">SERVIÇOS </a>
+                </li>
+
+                <li>
+                    <a class="nav-item" href="#cards">FOTOS</a>
+                </li>
+
+                <li>
+                    <a class="nav-item" href="#maps">ENDEREÇOS</a>
+                </li>
+
+                <li>
+                    <a class="nav-item" href="#contact">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Menu Mobile-->
+        <div class="bars" id="bars">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <!--Banner-->
+        <section class="banner" id="banner">
+            <div class="banner-content">
+                <!--banner text-->
+                <article class="banner-text">
+                    <h2 class="banner-subtitle">Ituan</h2>
+                    <h1 class="banner-title">Spa Car</h1>
+                    <p class="banner-description">
+                        Bem-vindo ao Spa Car Ituan onde o cuidado com seu veículo é levado ao próximo nível.
+                        Experimente a excelência em estética automotiva e sinta a diferença que um verdadeiro tratamento
+                        de spa faz no visual e desempenho do seu carro. <br>
+                        Seu veículo merece esse cuidado.
+                    </p>
+                    <a class="banner-button" href="#maps">Visite Um De Nossos Endereços</a>
+                </article>
+
+                <!--banner img-->
+                <aside class="banner-img">
+                    <img src="./img/img_fundo1.png" class="banner-image" />
+                </aside>
+            </div>
+        </section>
+
+        <!--Descriptions-->
+        <section class="descriptions" id="descriptions">
+            <h2 class="descriptions-title">SERVIÇOS</h2>
+
+            <div class="description-content">
+                <article class="description-card">
+                    <h2 class="description-title">DUCHA</h2>
+                    <p class="description">
+                        É a lavagem apenas da parte externa do veículo e inclui lataria, pneus, caixas de roda e rodas,
+                        sem secagem ou
+                        acabamento.
+                    </p>
+                    <span class="description-rating">⭐⭐⭐⭐⭐</span>
+                </article>
+
+                <article class="description-card">
+                    <h2 class="description-title">DUCHA, SECAGEM E PRETINHO</h2>
+                    <p class="description">
+                        É a lavagem apenas da parte externa do veículo e inclui lataria, pneus, caixas de roda e rodas,
+                        com secagem e
+                        pretinho.
+                    </p>
+                    <span class="description-rating">⭐⭐⭐⭐⭐</span>
+                </article>
+
+                <article class="description-card">
+                    <h2 class="description-title">LAVAGEM SIMPLES</h2>
+                    <p class="description">
+                        A lavagem simples ultiliza produtos de alta qualidade, um procedimento estético automotivo que
+                        tem
+                        como principal
+                        objetivo a remoção de sujeiras sem agredir a pintura.
+                    </p>
+                    <span class="description-rating">⭐⭐⭐⭐⭐</span>
+                </article>
+
+                <article class="description-card">
+                    <h2 class="description-title">LAVAGEM COM CERA</h2>
+                    <p class="description">
+                        A lavagem com cera ultiliza produtos de alta qualidade, um procedimento estético automotivo que
+                        tem
+                        como principal
+                        objetivo a remoção de sujeiras sem agredir a pintura. Na finalização aultilizando cera
+                        acabamento para um perfeito acabamento.
+                    </p>
+                    <span class="description-rating">⭐⭐⭐⭐⭐</span>
+                </article>
+            </div>
+        </section>
+
+        <!--Cards-->
+        <section class="cards" id="cards">
+            <h2 class="card-title">FOTOS</h2>
+
+            <div class="card-content" id="card">
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal-gallery">
+                    <!-- The Close Button -->
+                    <span class="close-gallery">x</span>
+                    <!-- Modal Content (The Image) -->
+                    <div id="caption-gallery"></div>
+                    <img class="modal-content-gallery" id="img01">
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption-gallery"></div>
+                </div>
+                <!-- End Modal -->
+
+                <aside class="card-img">
+                    <img id="myImg1" src="./img/galeria/VOLVO.png" alt="VOLVO" class="card-image" />
+                </aside>
+                <aside class="card-img">
+                    <img id="myImg2" src="./img/galeria/PANAMERA.png" alt="PANAMERA" class="card-image" />
+                </aside>
+                <aside class="card-img">
+                    <img id="myImg3" src="./img/galeria/BMW-X1.png" alt="BMW X1" class="card-image" />
+                </aside>
+                <aside class="card-img">
+                    <img id="myImg4" src="./img/galeria/BMW-320.png" alt="BMW 320" class="card-image" />
+                </aside>
+                <aside class="card-img">
+                    <img id="myImg1" src="./img/galeria/CLIO.png" alt="CLIO" class="card-image" />
+                </aside>
+                <aside class="card-img">
+                    <img id="myImg1" src="./img/galeria/HILLUX.png" alt="HILLUX" class="card-image" />
+                </aside>
+                <aside class="card-img">
+                    <img id="myImg1" src="./img/galeria/KICKS.png" alt="KICKS" class="card-image" />
+                </aside>
+                <aside class="card-img">
+                    <img id="myImg1" src="./img/galeria/BMW-118.png" alt="BMW  118" class="card-image" />
+                </aside>
+            </div>
+
+            <figure class="arrow">
+                <button id="left" class="btn-arrow">
+                    <i class="fa-solid fa-chevron-left bx"></i>
+                </button>
+                <button id="right" class="btn-arrow">
+                    <i class="fa-solid fa-chevron-right bx"></i>
+                </button>
+            </figure>
+
+        </section>
+
+        <!--Mapas-->
+        <section class="maps" id="maps">
+            <h2 class="maps-title">Visite Um De Nossos Endereços</h2>
+            <div class="map-content">
+                <article class="map-card">
+                    <h1 class="map-title">📍 R. República Argentina, 563 - Ponta Aguda, Blumenau - SC
+                    </h1>
+                    <iframe class="map-content"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d222.35390676089116!2d-49.060543!3d-26.914204000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18b8b74f9029%3A0x878cc51c5f81186c!2sPostos%20Meta%20-%20GG!5e0!3m2!1spt-BR!2sus!4v1723226412253!5m2!1spt-BR!2sus"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+                <article class="map-card">
+                    <h1 class="map-title">📍 R. Frederico Jensen, 1525 - Itoupavazinha, Blumenau - SC
+                    </h1>
+                    <iframe class="map-content"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d889.8346917439477!2d-49.101079!3d-26.860976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1f7fb6dc2d23%3A0xd7e1bd40199fd628!2sPostos%20Meta%20-%20Jensen!5e0!3m2!1spt-BR!2sus!4v1723220182613!5m2!1spt-BR!2sus"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+                <article class="map-card">
+                    <h1 class="map-title">📍 R. dos Caçadores, 1342 - Velha, Blumenau - SC
+                    </h1>
+                    <iframe class="map-content"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1778.7353417289587!2d-49.117677!3d-26.920289!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1eab52bcd641%3A0x4d35d3d8b04ae928!2sPostos%20Meta%20-%20JRX!5e0!3m2!1spt-BR!2sus!4v1723226295854!5m2!1spt-BR!2sus"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+                <article class="map-card">
+                    <h1 class="map-title">📍 R. Bahia, 2055 - Salto, Blumenau - SC
+                    </h1>
+                    <iframe class="map-content"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d444.8268612046682!2d-49.101686!3d-26.883974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1f85a63f0b35%3A0x814ba4747df18ff9!2sPostos%20Meta%20-%20Mega%20Blu!5e0!3m2!1spt-BR!2sus!4v1723226365804!5m2!1spt-BR!2sus"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+            </div>
+        </section>
+
+        <!--Contato-->
+        <section class="contact" id="contact">
+            <h2 class="contact-title">CONTATO</h2>
+            <div class="contact-content">
+                <form action="https://api.staticforms.xyz/submit" method="post" class="contact-form">
+                    <input type="hidden" name="accessKey" value="a60bef09-8002-4ae2-aa79-c9e3494c3baa" />
+                    <input type="text" name="name" placeholder="Digite seu nome" required />
+                    <input type="email" name="email" placeholder="Digite seu E-mail" required />
+                    <textarea name="message" placeholder="Digite seu mensagem" required></textarea>
+                    <input type="hidden" name="redirectTo" value="https://spacarituan.netlify.app" />
+                    <button type="submit" class="contact-btn">Enviar</button>
+
+                    <div class="logo-redes">
+                        <a href="https://www.instagram.com/spa_carituan/" class="icon-block" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://m.facebook.com/100093975687471/" class="icon-block" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/5547992858433?text=Olá%20gostaria%20de%20uma%20informação"
+                            class="icon-block" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </form>
+
+                <aside class="contact-img">
+                    <img src="./img/contato.webp" alt="" class="contact-image" width="40%" />
+                </aside>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="logo-contact">©Todos os direitos reservados.
+            Desenvolvido por</p>
+        <a class="contato-pessoal" href="https://www.linkedin.com/in/eudes-pessoa-307157259/" target="_blank">
+
+            <span> Eudes Pessoa </span>
+        </a>
+    </footer>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
